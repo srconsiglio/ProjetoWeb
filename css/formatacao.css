@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+}
+
+
+body {
+  background-color: #6495ED;
+}
+
+h1 {
+  background-color: brown;
+  border: 1px solid blue;
+}
+
+p {
+  background-color: rgb(255, 99, 71,0.5);
+  border: 2px solid rgb(150, 235,50 );
+}
+
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+h2 {
+  background-color: blueviolet;
+}
+
+#borda-superior {
+  border-top:2px dotted blueviolet ;
+  border-bottom: 3px dashed red;
+  border-right: 4px double black;
+  border-left: 5px solid yellow;
+}
+
+#borda-inferior {
+  border-top: 2px dotted blueviolet;
+  border-bottom: 3px double black;
+  border-left: 5px groove blue;
+  border-right: 4px outset rgba(55, 222, 50, 0.5);
+}
+
+#borda-direita {
+  border-top: 2px outset blue;
+  border-bottom: 5px groove rgb(red, green, blue);
+  border-left: 4px solid salmon;
+  border-right: 5px solid violet;
+}
+
+#borda-esquerda {
+  border-top: 5px solid black;
+  border-bottom: 5px dotted gray;
+  border-left: 4px dotted burlywood;
+  border-right: 3px solid green;
+}
+
+#margem-superior {
+  margin: 10px 12px 8px 7px;
+}
+
+#margem-inferior {
+  margin-bottom: 15px;
+}
+
+#margem-direita {
+  margin-right: 20px;
+}
+
+#margem-esquerda {
+  margin-left: 20px;
+}
+/*Configurando o container*/
+#container {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+div.container {
+  background-color: aquamarine;
+  font-family: ;
+}
+
+/* Trabalhando com fontes*/
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120px;
+  font-style: oblique;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40PX;
+}
